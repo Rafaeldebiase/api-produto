@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: rafaeldebiase/api-produto:v1.1
+          image: rafaeldebiase/api-produto
           ports:
             - containerPort: 8000
           env:
